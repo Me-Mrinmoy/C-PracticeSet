@@ -6,7 +6,7 @@ using namespace std;
 
 int main () {
 
-    int number1
+    int number1;
     int number2;
 
     // input from users --
