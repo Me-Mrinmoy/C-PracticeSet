@@ -22,4 +22,5 @@ int main () {
         cout << "This number can not be divisible" << number << endl;
     }
 
+
 }
