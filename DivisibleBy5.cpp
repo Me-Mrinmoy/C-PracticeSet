@@ -2,7 +2,7 @@
 //Write a program to check whether a number is divisible by 5.
 
 #include <iostream>
-using namespace std;
+using namespace std; 
 
 int main () {
 
