@@ -6,7 +6,7 @@ using namespace std;
 
 int main () {
 
-    // take a character --
+    // take a character -
     char ch;
 
     // input from user --
