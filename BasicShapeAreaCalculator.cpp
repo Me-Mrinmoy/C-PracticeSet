@@ -3,7 +3,7 @@ using namespace std;
 
 int main (){
 
-    int choice;
+    int choice; 
     int length;
     int width;
     int base;
