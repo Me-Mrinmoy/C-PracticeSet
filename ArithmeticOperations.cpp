@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 
-    // take the data type
+    // take the data type 
     int num1, num2;
     char op;
 
