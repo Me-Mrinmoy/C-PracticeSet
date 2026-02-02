@@ -13,15 +13,15 @@ int main () {
     cin >> age;
 
     // conditions --  
-    if (age >= 18) {
-        cout << "You can vote" << age << endl;
+    if (age >= 18 && age <= 100)
+    {
+        cout << age << " is Eligible to vote";
+    }
+    else 
+    {
+        cout << age << " is Not eligible to vote";
     }
 
-    if (age > 100 || age < 1) {
-        cout << "Invalid age" << age << endl;
-    }
-
-    else {
-        cout << "You can not vote" << age << endl;
-    }
+    return 0;
 }
+
