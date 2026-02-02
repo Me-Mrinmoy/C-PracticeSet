@@ -18,15 +18,18 @@ int main () {
     cin >> number2;
 
     // conditions --
-    if (number1 < number2) {
+    if (number1 < number2) 
+    {
         cout << "This is a smallest number" << number1 << endl;
     }
-
     else if (number1 > number2) {
         cout << "This is a smallest number" << number2 << endl;
     }
-
-    else {
+    else 
+    {
         cout << "Please enter the valid number or maybe there is no smallest number";
     }
+
+    return 0;
 }
+
