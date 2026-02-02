@@ -1,16 +1,17 @@
 // Find the Minimum of Three Numbers: 
 // Write a function that takes three integers and returns the smallest one
 
-
 #include <iostream>
 using namespace std;
 
 int main () {
 
+    // defined three integars---
     int num1;
     int num2;
     int num3;
 
+    // input from user--
     cout << "Enter the num1: ";
     cin >> num1;
 
@@ -20,7 +21,9 @@ int main () {
     cout << "Enter the num3: ";
     cin >> num3;
 
-    if (num1 < num2) {
+    // conditions---
+    if (num1 < num2) 
+    {
         cout <<  "Smallest is: " << num1 << endl;
     }
 
@@ -28,12 +31,11 @@ int main () {
     {
         cout << "Smallest is: " << num2 << endl;
     }
-
-    else if (num3 < num1)
+    else
     {
-        cout << "Smallest is: " << num3 << endl;
-    }
+        cout << "Sallesst 
     
     
 
 }
+
