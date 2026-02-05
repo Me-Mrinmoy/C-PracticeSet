@@ -1,7 +1,7 @@
 //Check Alphabet Case
 //Write a program to determine whether an input character is uppercase or lowercase.
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main () {
@@ -18,13 +18,16 @@ int main () {
     {
         cout << "This character is uppercase letter" << ch << endl;
     }
-
-    else if (ch >= 'a' && ch <= 'z') {
+    else if (ch >= 'a' && ch <= 'z') 
+    {
         cout << "This  is a lowercase letter" << ch << endl;
     }
-
-    else {
+    else
+    {
         cout << "Please enter a valid character";
     }
 
+    return 0;
+
 }
+
