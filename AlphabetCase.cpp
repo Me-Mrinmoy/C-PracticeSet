@@ -14,7 +14,8 @@ int main () {
     cin >> ch;
 
     // conditions --
-    if (ch >= 'A' && ch <= 'Z') {
+    if (ch >= 'A' && ch <= 'Z') 
+    {
         cout << "This character is uppercase letter" << ch << endl;
     }
 
@@ -25,4 +26,5 @@ int main () {
     else {
         cout << "Please enter a valid character";
     }
+
 }
