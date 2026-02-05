@@ -12,11 +12,11 @@ int main()
     char op;
 
     // input the numbers from the user
-    cout << "Enter the num1: ";
-    cin >> num1;
+    // cout << "Enter the num1: ";
+    // cin >> num1;
 
-    cout << "Enter the num2: ";
-    cin >> num2;
+    // cout << "Enter the num2: ";
+    // cin >> num2;
 
     // input the operator from the user
     cout << "Enter the operator: ";
@@ -26,6 +26,14 @@ int main()
     switch (op)
     {
     case '+':
+        cout << "Okey you want to perform addition right---" << endl;
+
+        cout << "Enter the num1: " << endl;
+        cin >> num1;
+
+        cout << "Enter the num2: " << endl;
+        cin >> num2;
+        
         cout << "Result is: " << num1 + num2 << endl;
         break;
 
@@ -49,5 +57,6 @@ int main()
     return 0;
 
 }
+
 
 
