@@ -38,14 +38,38 @@ int main()
         break;
 
     case '-':
+        cout << "Okey you want to perform subtraction: " << endl;
+
+        cout << "Enter the num1: " << endl;
+        cin >> num1;
+
+        cout << "Enter the num2: " << endl;
+        cin >> num2;
+        
         cout << "Result is: " << num1 - num2 << endl;
         break;
 
     case '*':
+        cout << "Okey you want to perform multiplication right---" << endl;
+
+        cout << "Enter the num1: " << endl;
+        cin >> num1;
+
+        cout << "Enter the num2: " << endl;
+        cin >> num2;
+        
         cout << "Result is: " << num1 * num2 << endl;
         break;
 
     case '/':
+        cout << "Okey you want to perform division right---" << endl;
+
+        cout << "Enter the num1: " << endl;
+        cin >> num1;
+
+        cout << "Enter the num2: " << endl;
+        cin >> num2;
+        
         cout << "Result is: " << (float)num1 / num2 << endl;
         break;
 
@@ -57,6 +81,7 @@ int main()
     return 0;
 
 }
+
 
 
 
