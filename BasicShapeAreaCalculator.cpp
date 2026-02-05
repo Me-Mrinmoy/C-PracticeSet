@@ -1,3 +1,8 @@
+// Write a program to calculate the basic shape areas---
+// For Circle - 3.14 * radius * radius
+// For Reactangle - length * width
+// For Triangle - 0.5 * base * height
+
 #include <iostream>
 using namespace std;
 
@@ -13,7 +18,7 @@ int main (){
     cout << "Options are...\n";
     cout << "1.Circle\n";
     cout << "2.Reactangle\n";
-    cout << "3.Trinagle\n";
+    cout << "3.Triangle\n";
 
     cout << "Enter your choice: ";
     cin >> choice;
@@ -55,3 +60,4 @@ int main (){
 
 
 }
+
