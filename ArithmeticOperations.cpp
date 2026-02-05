@@ -1,7 +1,7 @@
 // Arithmetic Operations:
 // Write a programe that takes two numbers from user and an operator (+, -, *, /) as input. Use a switch statement to perform the specified operation.
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -46,5 +46,8 @@ int main()
         break;
     }
 
+    return 0;
+
 }
+
 
