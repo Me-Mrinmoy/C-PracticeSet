@@ -6,6 +6,7 @@ using namespace std;
 
 int main () {
 
+    // takes two integars---
     int number1;
     int number2;
 
@@ -17,17 +18,21 @@ int main () {
     cin >> number2;
     
     // conditions --
-    if (number1 > number2) {
+    if (number1 > number2)
+    {
         cout << "This is a greater number" << number1 << endl;
     }
-
-    else if (number1 < number2) {
+    else if (number1 < number2)
+    {
         cout << "This is a greater number" << number2 << endl;
     }
-
-    else {
+    else
+    {
         cout << "Please enter a valid number!";
     }
 
+    return 0;
+
 }
+
 
