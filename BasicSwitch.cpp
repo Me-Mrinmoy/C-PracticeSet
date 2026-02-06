@@ -13,11 +13,14 @@ using namespace std;
 
 int main () { 
 
+    // takes an integar num---
     int num;
 
+    // input from the user---
     cout << "Enter the num: ";
     cin >> num;
 
+    // statement---
     switch (num)
     {
     case 1:
@@ -45,4 +48,7 @@ int main () {
         break;
     }
 
+    return 0;
+
 }
+
