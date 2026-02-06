@@ -1,5 +1,8 @@
 //Check Leap Year
 //Write a program to check whether a given year is a leap year.
+// Conditions -- 
+// 1. year is divide by 4 and the result is 0 and divide by 100 and the result is not 0 then the year is leap year.
+// 2. year is divide by 400 and the result is 0 then the year is leap year.
 
 #include <iostream>
 using namespace std;
@@ -31,3 +34,4 @@ int main (){
     }
 
 }
+
