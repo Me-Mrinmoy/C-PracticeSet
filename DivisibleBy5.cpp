@@ -14,13 +14,15 @@ int main () {
     cin >> number;
 
     // conditions -- 
-    if (number % 5 == 0) {
+    if (number % 5 == 0) 
+    {
         cout << "This number can be divisible" << number << endl;
     }
-
-    else {
+    else 
+    {
         cout << "This number can not be divisible" << number << endl;
     }
 
-
+    return 0;
 }
+
