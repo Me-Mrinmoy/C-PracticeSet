@@ -1,3 +1,6 @@
+// Write a program to check if the number is even or odd.
+// How to check this??
+
 #include <iostream>
 using namespace std;
 
@@ -18,3 +21,4 @@ int main () {
     
 
 }
+
