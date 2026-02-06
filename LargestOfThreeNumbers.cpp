@@ -1,15 +1,17 @@
 // Find the Largest of Three Numbers: 
 // Write a function that takes three integers and returns the largest one.
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main () {
 
+    // takes three integars---
     int num1;
     int num2;
     int num3;
 
+    // input from user---
     cout << "Enter the num1: ";
     cin >> num1;
 
@@ -41,4 +43,5 @@ int main () {
     
     
     
+
 }
