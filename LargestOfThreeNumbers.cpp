@@ -21,27 +21,25 @@ int main () {
     cout << "Enter the num3: ";
     cin >> num3;
 
-    if (num1 > num2) {
+    // conditions---
+    if (num1 > num2)
+    {
         cout << "Largest is: " << num1 << endl;
     }
-
     else if (num2 > num3) 
     {
         cout << "Largest is: " << num2 << endl;
     }
-
     else if (num3 > num2)
     {
         cout << "Largest is: " << num3 << endl;
     }
-    
-
     else
     {
         cout << "There is no largest number please enter the number correctly" << endl;
     }
-    
-    
-    
 
+
+    return 0;
 }
+
