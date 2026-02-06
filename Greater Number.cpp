@@ -1,7 +1,7 @@
 //Find the Greater Number
 //Write a program to find the greater of two numbers.
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main () {
@@ -30,3 +30,4 @@ int main () {
     }
 
 }
+
