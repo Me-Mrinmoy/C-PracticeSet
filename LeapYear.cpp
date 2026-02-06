@@ -17,22 +17,23 @@ int main (){
     cin >> year;
 
     // conditions --
-    if (year % 400 == 0) {
-        cout << "This is a leap year" << year << endl;
+    if (year % 4 == 0 && year % 100 != 0)
+    {
+        cout << year << " is a leap year" << endl;
+    }
+    else if (year % 400 == 0)
+    {
+        cout << year << " is not a leap year" << endl;
+    }
+    else 
+    {
+        cout << year << " is not a leap year" << endl;
     }
 
-    else if (year % 4 == 0) {
-        cout << "This is a leap year" << year << endl;
-    }
 
-    else if (year % 100 == 0) {
-        cout << "This is not a leap year" << year << endl;
-    }
-
-    else {
-        cout << "This is not a leap year" << year << endl;
-    }
+    return 0;
 
 }
+
 
 
