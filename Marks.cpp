@@ -10,32 +10,40 @@ using namespace std;
 
 int main() {
 
+    // takes an integar---
     int marks;
 
+    // input from user---
     cout << "Enter the marks: ";
     cin >> marks;
 
-    if (marks >= 90) {
+    // conditions---
+    if (marks >= 90) 
+    {
         cout << "A";
     }
-
-    else if (marks >= 80 && marks <= 90) {
+    else if (marks >= 80 && marks <= 90)
+    {
         cout << "B";
     }
-
-    else if (marks >= 70 && marks <= 80) {
+    else if (marks >= 70 && marks <= 80) 
+    {
         cout << "C";
     }
-
-    else if (marks >= 60 && marks <= 70) {
+    else if (marks >= 60 && marks <= 70)
+    {
         cout << "D";
     }
-
-    else if (marks >= 50 && marks <= 60) {
+    else if (marks >= 50 && marks <= 60)
+    {
         cout << "E";
     }
 
-    else {
+    else 
+    {
         cout << "You are fail go and revise";
     }
+
+    return 0;
+
 }
