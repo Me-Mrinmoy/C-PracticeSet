@@ -1,5 +1,6 @@
 // Write a program to calculate the electricity bill--- 
 // If user enter 100 unit then---
+// First 100 unit is free.
 
 
 #include<bits/stdc++.h>
@@ -37,6 +38,7 @@ int main()
     return 0;
 
 }
+
 
 
 
