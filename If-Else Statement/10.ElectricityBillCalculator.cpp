@@ -7,10 +7,12 @@ using namespace std;
 
 int main()
 {
+    // takes unit as an integar---
     int unit;
     cout << "Enter the electricity unit: "; 
     cin >> unit;
 
+    // condition---
     if (unit == 100)
     {
         cout << "First Unit Free";
@@ -35,6 +37,7 @@ int main()
     return 0;
 
 }
+
 
 
 
