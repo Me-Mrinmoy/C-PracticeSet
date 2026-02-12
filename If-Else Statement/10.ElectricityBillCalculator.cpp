@@ -1,4 +1,4 @@
-// Write
+// Write a program to calculate the electricity bill--- 
 
 
 #include<bits/stdc++.h>
@@ -34,5 +34,6 @@ int main()
     return 0;
 
 }
+
 
 
