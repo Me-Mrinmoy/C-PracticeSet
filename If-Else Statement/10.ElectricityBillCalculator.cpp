@@ -13,7 +13,7 @@ int main()
     cout << "Enter the electricity unit: "; 
     cin >> unit;
 
-    // condition---
+    // conditions---
     if (unit == 100)
     {
         cout << "First Unit Free";
