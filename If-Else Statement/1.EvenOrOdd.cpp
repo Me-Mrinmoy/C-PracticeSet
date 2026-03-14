@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+    // take num as input--
     int num;
     cout << "Enter the num: ";
     cin >> num;
