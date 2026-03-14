@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    // takes unit as an integar---
+    // taking unit as an integar---
     int unit;
     cout << "Enter the electricity unit: "; 
     cin >> unit;
