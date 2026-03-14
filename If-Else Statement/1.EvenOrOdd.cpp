@@ -12,6 +12,7 @@ int main()
     cout << "Enter the num: ";
     cin >> num;
 
+    // conditions--
     if (num % 2 == 0)
     {
         cout << "Even";
