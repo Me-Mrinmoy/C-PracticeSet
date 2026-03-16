@@ -15,6 +15,7 @@ void checkN(int n)
 
 int main()
 {
+    // 
     int n;
     cout << "enter the n: ";
     cin >> n;
