@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// using 
+// using function---
 void checkN(int n)
 {
     if (n % 2 == 0)
