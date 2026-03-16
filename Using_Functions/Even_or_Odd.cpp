@@ -15,7 +15,7 @@ void checkN(int n)
 
 int main()
 {
-    // takes
+    // takes an 
     int n;
     cout << "enter the n: ";
     cin >> n;
