@@ -1,3 +1,6 @@
+// Write a program to check 
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
