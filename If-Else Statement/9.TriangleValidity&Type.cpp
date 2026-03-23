@@ -1,4 +1,4 @@
-// Write a program to check 
+// Write a program to check if it's 
 
 
 #include <bits/stdc++.h>
