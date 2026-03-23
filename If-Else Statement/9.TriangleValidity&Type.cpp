@@ -1,4 +1,4 @@
-// Write a program to check if it's 
+// Write a program to check if it's triangle or 
 
 
 #include <bits/stdc++.h>
