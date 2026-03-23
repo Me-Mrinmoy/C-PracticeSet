@@ -1,4 +1,4 @@
-// Write a program to check if it's triangle or not
+// Write a program to check if it's triangle or not. Take 
 
 
 #include <bits/stdc++.h>
