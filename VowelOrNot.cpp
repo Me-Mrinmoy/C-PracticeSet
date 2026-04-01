@@ -6,6 +6,7 @@ using namespace std;
 
 int main() {
 
+    // takes a character as ch---
     char ch;
 
     cout << "Enter the character to check if its vowel or not: ";
