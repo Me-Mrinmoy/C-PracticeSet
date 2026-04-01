@@ -1,7 +1,7 @@
 // Vowel or Consonant
 // Write a program to check if a given character is a vowel or consonant.
 
-#include <iostream>
+#include <b>
 using namespace std;
 
 int main() {
