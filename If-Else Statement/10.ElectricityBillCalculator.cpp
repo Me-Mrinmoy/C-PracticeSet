@@ -23,7 +23,7 @@ int main()
     {
         cout << "Total cost is: " << 5 * unit << endl;
     }
-    // when the electricity unit between
+    // when the electricity unit between 201 
     else if (unit >= 201 && unit <= 300)
     {
         cout << "Total cost is: " << 10 * unit << endl;
