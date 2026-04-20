@@ -18,7 +18,8 @@ int main()
     {
         cout << "First Unit Free";
     }
-    else if (unit >= 101 && unit <= 200)
+    // when 
+    else if (unit >= 101 && unit <= 200)  
     {
         cout << "Total cost is: " << 5 * unit << endl;
     }
