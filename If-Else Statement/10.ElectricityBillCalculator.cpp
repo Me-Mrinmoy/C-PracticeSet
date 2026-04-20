@@ -23,7 +23,7 @@ int main()
     {
         cout << "Total cost is: " << 5 * unit << endl;
     }
-    // when
+    // when the
     else if (unit >= 201 && unit <= 300)
     {
         cout << "Total cost is: " << 10 * unit << endl;
